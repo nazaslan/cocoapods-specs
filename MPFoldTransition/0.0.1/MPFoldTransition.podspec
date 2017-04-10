@@ -7,6 +7,6 @@ Pod::Spec.new do |s|
   s.author       = "Mark Pospesel"
   s.source       = { :git => "https://github.com/mpospese/MPFoldTransition.git", :commit => "4252457b165f83946cbd618a7e986d64a2e31e36" }
   s.platform     = :ios, '5.0'
-  s.source_files = 'MPFoldTransition/MPFoldTransition/**/*.{h,m}'
+  s.source_files = 'MPFoldTransition/MPFoldTransition/MPFoldTransition/**/*.{h,m}'
   s.requires_arc = true
 end
