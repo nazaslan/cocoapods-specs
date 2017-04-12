@@ -6,7 +6,8 @@ Pod::Spec.new do |s|
   s.license	= { :type => "Mozilla Public License v1.1",
 		    :file => "COPYING" }
   s.author	= { " Alessandro Furieri" => "a.furieri@lqt.it" }
-  s.source	= { :http => "http://www.gaia-gis.it/gaia-sins/libspatialite-sources/libspatialite-4.1.1.tar.gz" }
+  s.source	= { :http => "http://www.gaia-gis.it/gaia-sins/libspatialite-sources/libspatialite-4.0.0.tar.gz"
+	  		"flatten": true}
 
   s.compiler_flags = '-DHAVE_CONFIG_H'
   s.ios.compiler_flags = '-U__APPLE__'
